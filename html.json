@@ -1,0 +1,23 @@
+{
+  "Danny HTML": {
+    "prefix": "!",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"zh-Hant\">",
+      "  <head>",
+      "    <meta charset=\"UTF-8\" />",
+      "    <meta name=\"author\" content=\"Danny Hsu\" />",
+      "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "    <meta name=\"rating\" content=\"General\" />",
+      "    <meta name=\"robots\" ,content=\"index,follow\" />",
+      "    <base target=\"_blank\" />",
+      "    <meta name=\"description\" content=\"主要內容\" />",
+      "    <title>標題</title>",
+      "    <link rel=\"stylesheet\" href=\"./style.css\" />",
+      "  </head>",
+      "  <body></body>",
+      "</html>"
+    ],
+    "description": "Danny HTML"
+  }
+}
