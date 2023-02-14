@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif TC", serif;
+}
+
+h1 {
+  color: #000000;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}/*# sourceMappingURL=style.css.map */

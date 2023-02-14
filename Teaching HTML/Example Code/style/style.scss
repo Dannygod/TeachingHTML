@@ -1,0 +1,18 @@
+$main-color: #FFFFFF;
+$sub-color : #000000;
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Serif TC", serif;
+}
+
+h1 {
+    color: $sub-color;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
