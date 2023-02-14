@@ -2,3 +2,9 @@
   padding: 1rem;
   margin: 2rem;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC&family=Source+Code+Pro&display=swap");
+h1,
+p {
+  font-family: "Noto Serif TC", serif;
+}
