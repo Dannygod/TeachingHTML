@@ -1,15 +1,21 @@
-div.box1 {
+div {
+  display: flex;
+}
+div div {
+  width: 100px;
+}
+div div.box1 {
   background: rgb(245, 16, 8);
 }
-div.box2 {
+div div.box2 {
   background: rgb(255, 176, 6);
 }
-div.box3 {
+div div.box3 {
   background: rgb(231, 231, 3);
 }
-div.box4 {
+div div.box4 {
   background: rgb(37, 163, 226);
 }
-div.box5 {
+div div.box5 {
   background: rgb(27, 246, 27);
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=flex2.css.map */

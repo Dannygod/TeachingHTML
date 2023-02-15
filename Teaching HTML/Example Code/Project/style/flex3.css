@@ -1,0 +1,22 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+div div {
+  width: 200px;
+}
+div div.box1 {
+  background: rgb(245, 16, 8);
+}
+div div.box2 {
+  background: rgb(255, 176, 6);
+}
+div div.box3 {
+  background: rgb(231, 231, 3);
+}
+div div.box4 {
+  background: rgb(37, 163, 226);
+}
+div div.box5 {
+  background: rgb(27, 246, 27);
+}/*# sourceMappingURL=flex3.css.map */

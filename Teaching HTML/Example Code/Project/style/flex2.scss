@@ -1,0 +1,27 @@
+div {
+    display: flex;
+
+    div {
+        width: 100px;
+
+        &.box1 {
+            background: rgb(245, 16, 8);
+        }
+
+        &.box2 {
+            background: rgb(255, 176, 6);
+        }
+
+        &.box3 {
+            background: rgb(231, 231, 3);
+        }
+
+        &.box4 {
+            background: rgb(37, 163, 226);
+        }
+
+        &.box5 {
+            background: rgb(27, 246, 27);
+        }
+    }
+}
