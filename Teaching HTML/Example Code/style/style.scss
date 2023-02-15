@@ -1,19 +1,45 @@
+// 色票管理: $
+
 $main-color: #FFFFFF;
 $sub-color : #000000;
 
+// 跟css一樣用{}
 * {
     padding: 0;
     margin: 0;
     font-family: "Noto Serif TC", serif;
 }
 
-h1 {
-    font-size: 1.5rem;
-    color: $sub-color;
+// 巢狀式結構
+main {
+    display: flex;
+
+    section.left {
+        width: 50%;
+
+        h1 {
+            font-size: 1.5rem;
+            color: $sub-color;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+    }
+
+    section {
+        &.right {
+            h1 {
+                color: aqua;
+            }
+        }
+    }
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-}
+
+
+
+// 用&連接parent &:hover

@@ -4,13 +4,21 @@
   font-family: "Noto Serif TC", serif;
 }
 
-h1 {
+main {
+  display: flex;
+}
+main section.left {
+  width: 50%;
+}
+main section.left h1 {
   font-size: 1.5rem;
   color: #000000;
 }
-
-table,
-th,
-td {
+main section.left table,
+main section.left th,
+main section.left td {
   border: 1px solid black;
+}
+main section.right h1 {
+  color: aqua;
 }/*# sourceMappingURL=style.css.map */
