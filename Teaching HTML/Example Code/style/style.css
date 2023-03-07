@@ -2,21 +2,22 @@
   padding: 0;
   margin: 0;
   font-family: "Noto Serif TC", serif;
+  text-align: center;
 }
 
 main {
   display: flex;
 }
-main section.left {
+main section#left {
   width: 50%;
 }
-main section.left h1 {
+main section#left h1 {
   font-size: 1.5rem;
   color: #000000;
 }
-main section.left table,
-main section.left th,
-main section.left td {
+main section#left table,
+main section#left th,
+main section#left td {
   border: 1px solid black;
 }
 main section.right h1 {

@@ -2,6 +2,7 @@
 
 $main-color: #FFFFFF;
 $sub-color : #000000;
+$color: rgb(141, 57, 57);
 
 // 跟css一樣用{}
 * {
@@ -15,7 +16,7 @@ $sub-color : #000000;
 main {
     display: flex;
 
-    section.left {
+    section#left {
         width: 50%;
 
         h1 {

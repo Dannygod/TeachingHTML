@@ -1,0 +1,95 @@
+// 色票管理: $
+
+$main-color: #FFFFFF;
+$sub-color : #000000;
+$prussian-blue: rgba(0, 48, 73, 1);
+$fire-engine-red: rgba(214, 40, 40, 1);
+$orange-wheel: rgba(247, 127, 0, 1);
+$xanthous: rgba(252, 191, 73, 1);
+$vanilla: rgba(234, 226, 183, 1);
+
+@mixin boxModel() {
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    background: $prussian-blue;
+    margin: 1rem;
+    border-radius: 20px;
+
+    div.Ctn {
+        width: 50%;
+        margin: 0.5rem;
+        background: $vanilla;
+        border-radius: 18px;
+
+        div.h1 {
+            margin: 0.5rem;
+            background-color: $prussian-blue;
+            font-size: 1.5rem;
+
+            color: $sub-color;
+
+            h1 {
+                color: white;
+            }
+        }
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+}
+
+// 跟css一樣用{}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Serif TC", serif;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h1,
+    p {
+        color: #FFFFFF;
+    }
+}
+
+nav {
+    background: $orange-wheel;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// 巢狀式結構
+main {
+    display: flex;
+
+    section.left {
+        @include boxModel()
+    }
+
+    section.right {
+        @include boxModel()
+    }
+}
+
+
+
+// 用&連接parent &:hover

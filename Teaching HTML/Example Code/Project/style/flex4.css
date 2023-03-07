@@ -1,5 +1,8 @@
 div {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 div div {
   width: 200px;
@@ -18,4 +21,4 @@ div div.box4 {
 }
 div div.box5 {
   background: rgb(27, 246, 27);
-}/*# sourceMappingURL=flex3.css.map */
+}/*# sourceMappingURL=flex4.css.map */
