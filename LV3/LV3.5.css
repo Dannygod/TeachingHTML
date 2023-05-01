@@ -5,6 +5,7 @@
 
 h1,
 p {
+  /* font-family: "Noto Sans CJK TC", "Noto Sans TC", sans-serif; */
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 32px;
+  font-size: 1.5rem;
 }
