@@ -1,18 +1,140 @@
-div {
+div#MyFlex {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+div#MyFlex div.row1 {
   display: flex;
 }
-div div.box1 {
+div#MyFlex div.row1 div.none {
+  width: 20%;
+  height: 20vw;
+}
+div#MyFlex div.row1 div.box1 {
+  width: 20%;
   background: rgb(245, 16, 8);
 }
-div div.box2 {
+div#MyFlex div.row1 div.box2 {
+  width: 20%;
   background: rgb(255, 176, 6);
 }
-div div.box3 {
+div#MyFlex div.row1 div.box3 {
+  width: 20%;
   background: rgb(231, 231, 3);
 }
-div div.box4 {
+div#MyFlex div.row1 div.box4 {
+  width: 20%;
   background: rgb(37, 163, 226);
 }
-div div.box5 {
+div#MyFlex div.row1 div.box5 {
+  width: 20%;
+  background: rgb(27, 246, 27);
+}
+div#MyFlex div.row2 {
+  display: flex;
+}
+div#MyFlex div.row2 div.none {
+  width: 20%;
+  height: 20vw;
+}
+div#MyFlex div.row2 div.box1 {
+  width: 20%;
+  background: rgb(245, 16, 8);
+}
+div#MyFlex div.row2 div.box2 {
+  width: 20%;
+  background: rgb(255, 176, 6);
+}
+div#MyFlex div.row2 div.box3 {
+  width: 20%;
+  background: rgb(231, 231, 3);
+}
+div#MyFlex div.row2 div.box4 {
+  width: 20%;
+  background: rgb(37, 163, 226);
+}
+div#MyFlex div.row2 div.box5 {
+  width: 20%;
+  background: rgb(27, 246, 27);
+}
+div#MyFlex div.row3 {
+  display: flex;
+}
+div#MyFlex div.row3 div.none {
+  width: 20%;
+  height: 20vw;
+}
+div#MyFlex div.row3 div.box1 {
+  width: 20%;
+  background: rgb(245, 16, 8);
+}
+div#MyFlex div.row3 div.box2 {
+  width: 20%;
+  background: rgb(255, 176, 6);
+}
+div#MyFlex div.row3 div.box3 {
+  width: 20%;
+  background: rgb(231, 231, 3);
+}
+div#MyFlex div.row3 div.box4 {
+  width: 20%;
+  background: rgb(37, 163, 226);
+}
+div#MyFlex div.row3 div.box5 {
+  width: 20%;
+  background: rgb(27, 246, 27);
+}
+div#MyFlex div.row4 {
+  display: flex;
+}
+div#MyFlex div.row4 div.none {
+  width: 20%;
+  height: 20vw;
+}
+div#MyFlex div.row4 div.box1 {
+  width: 20%;
+  background: rgb(245, 16, 8);
+}
+div#MyFlex div.row4 div.box2 {
+  width: 20%;
+  background: rgb(255, 176, 6);
+}
+div#MyFlex div.row4 div.box3 {
+  width: 20%;
+  background: rgb(231, 231, 3);
+}
+div#MyFlex div.row4 div.box4 {
+  width: 20%;
+  background: rgb(37, 163, 226);
+}
+div#MyFlex div.row4 div.box5 {
+  width: 20%;
+  background: rgb(27, 246, 27);
+}
+div#MyFlex div.row5 {
+  display: flex;
+}
+div#MyFlex div.row5 div.none {
+  width: 20%;
+  height: 20vw;
+}
+div#MyFlex div.row5 div.box1 {
+  width: 20%;
+  background: rgb(245, 16, 8);
+}
+div#MyFlex div.row5 div.box2 {
+  width: 20%;
+  background: rgb(255, 176, 6);
+}
+div#MyFlex div.row5 div.box3 {
+  width: 20%;
+  background: rgb(231, 231, 3);
+}
+div#MyFlex div.row5 div.box4 {
+  width: 20%;
+  background: rgb(37, 163, 226);
+}
+div#MyFlex div.row5 div.box5 {
+  width: 20%;
   background: rgb(27, 246, 27);
 }/*# sourceMappingURL=flex.css.map */

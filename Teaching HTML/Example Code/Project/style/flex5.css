@@ -1,0 +1,35 @@
+div {
+  flex-direction: column;
+}
+div div {
+  display: flex;
+  flex-direction: column;
+}
+div div div.row1 {
+  display: flex;
+  justify-content: flex-start;
+}
+div div div.row1 div.box1 {
+  width: 200px;
+  background: rgb(245, 16, 8);
+}
+div div div.row2 {
+  display: flex;
+  justify-content: center;
+}
+div div div.row2 div.box2 {
+  background: rgb(255, 176, 6);
+}
+div div div.row3 {
+  display: flex;
+  justify-content: flex-end;
+}
+div div div.row3 div.box3 {
+  background: rgb(231, 231, 3);
+}
+div div.box4 {
+  background: rgb(37, 163, 226);
+}
+div div.box5 {
+  background: rgb(27, 246, 27);
+}/*# sourceMappingURL=flex5.css.map */

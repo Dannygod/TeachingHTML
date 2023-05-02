@@ -1,11 +1,13 @@
 div {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 
     div {
         width: 200px;
+        margin-top: 20px;
 
         &.box1 {
             background: rgb(245, 16, 8);

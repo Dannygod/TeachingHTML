@@ -3,6 +3,8 @@ div {
 
     div {
         width: 200px;
+        // min-width: 200px;
+        // max-width: 100px;
 
         &.box1 {
             background: rgb(245, 16, 8);

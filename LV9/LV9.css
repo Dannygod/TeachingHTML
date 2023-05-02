@@ -8,6 +8,9 @@
 * a {
   text-decoration: none;
 }
+* a:hover {
+  color: blue;
+}
 * ul {
   list-style: none;
 }
@@ -47,14 +50,13 @@ main section.left {
 main section.left div.Ctn {
   width: 60%;
   margin: 0.5rem;
-  background: #fff8d2;
   border-radius: 18px;
 }
 main section.left div.Ctn div.h1 {
   margin: 0.5rem;
   background-color: #753d1b;
   font-size: 1.25rem;
-  color: #ffffff;
+  color: white;
 }
 main section.left div.Ctn div.h1 h1 {
   color: #522203;
@@ -82,14 +84,13 @@ main section.right {
 main section.right div.Ctn {
   width: 60%;
   margin: 0.5rem;
-  background: #fff8d2;
   border-radius: 18px;
 }
 main section.right div.Ctn div.h1 {
   margin: 0.5rem;
   background-color: #753d1b;
   font-size: 1.25rem;
-  color: #ffffff;
+  color: white;
 }
 main section.right div.Ctn div.h1 h1 {
   color: #522203;

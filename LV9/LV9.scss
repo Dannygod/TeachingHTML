@@ -19,22 +19,26 @@ $vanilla: #fff8d2;
     margin: 1rem;
     border-radius: 20px;
 
-    div.Ctn {
-        width: 60%;
-        margin: 0.5rem;
-        background: $vanilla;
-        border-radius: 18px;
+    div {
+        &.Ctn {
 
-        div.h1 {
+            width: 60%;
             margin: 0.5rem;
-            background-color: $brown2;
-            font-size: 1.25rem;
+            // background: $vanilla;
+            border-radius: 18px;
 
-            color: #ffffff;
+            div.h1 {
+                margin: 0.5rem;
+                background-color: $brown2;
+                font-size: 1.25rem;
 
-            h1 {
-                color: $brown;
+                color: white;
+
+                h1 {
+                    color: $brown;
+                }
             }
+
         }
     }
 
@@ -60,7 +64,13 @@ $vanilla: #fff8d2;
 
     a {
         text-decoration: none;
+
+        &:hover {
+            color: blue;
+        }
     }
+
+
 
     ul {
         list-style: none;

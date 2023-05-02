@@ -1,0 +1,47 @@
+div {
+    // display: flex;
+    // justify-content: center;
+
+    flex-direction: column;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        div.row1 {
+            display: flex;
+            justify-content: flex-start;
+
+            div.box1 {
+                width: 200px;
+                background: rgb(245, 16, 8);
+            }
+        }
+
+        div.row2 {
+            display: flex;
+            justify-content: center;
+
+            div.box2 {
+                background: rgb(255, 176, 6);
+            }
+        }
+
+        div.row3 {
+            display: flex;
+            justify-content: flex-end;
+
+            div.box3 {
+                background: rgb(231, 231, 3);
+            }
+        }
+
+        &.box4 {
+            background: rgb(37, 163, 226);
+        }
+
+        &.box5 {
+            background: rgb(27, 246, 27);
+        }
+    }
+}

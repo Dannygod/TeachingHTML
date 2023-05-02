@@ -1,26 +1,61 @@
-div {
-    display: flex;
+div#MyFlex {
+    @mixin row() {
 
-    div {
+        display: flex;
 
-        &.box1 {
+        div.none {
+            width: 20%;
+            height: 20vw;
+        }
+
+        div.box1 {
+            width: 20%;
             background: rgb(245, 16, 8);
         }
 
-        &.box2 {
+        div.box2 {
+            width: 20%;
             background: rgb(255, 176, 6);
         }
 
-        &.box3 {
+        div.box3 {
+            width: 20%;
             background: rgb(231, 231, 3);
         }
 
-        &.box4 {
+        div.box4 {
+            width: 20%;
             background: rgb(37, 163, 226);
         }
 
-        &.box5 {
+        div.box5 {
+            width: 20%;
             background: rgb(27, 246, 27);
         }
+
+    }
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    div.row1 {
+        @include row();
+    }
+
+    div.row2 {
+        @include row();
+    }
+
+    div.row3 {
+        @include row();
+    }
+
+    div.row4 {
+        @include row();
+    }
+
+    div.row5 {
+        @include row();
     }
 }
