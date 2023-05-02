@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  /* font-family: "Noto Sans CJK TC", "Noto Sans TC", sans-serif; */
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 1.5rem;
+}
