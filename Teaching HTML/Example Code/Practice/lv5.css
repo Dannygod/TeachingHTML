@@ -1,0 +1,23 @@
+p.red {
+  color: red;
+}
+p#blue {
+  color: blue;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  /* font-family: "Noto Sans TC", sans-serif; */
+  /* font-weight: 900; */
+}
+
+ol {
+  list-style: disc;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-spacing: 0;
+}
