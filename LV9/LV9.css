@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Noto Serif TC", serif;
+  font-family: "Noto Sans TC", serif;
   text-align: center;
 }
 * a {
@@ -45,7 +45,7 @@ main section.left {
   border-radius: 20px;
 }
 main section.left div.Ctn {
-  width: 50%;
+  width: 60%;
   margin: 0.5rem;
   background: #fff8d2;
   border-radius: 18px;
@@ -53,7 +53,7 @@ main section.left div.Ctn {
 main section.left div.Ctn div.h1 {
   margin: 0.5rem;
   background-color: #753d1b;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #ffffff;
 }
 main section.left div.Ctn div.h1 h1 {
@@ -80,7 +80,7 @@ main section.right {
   border-radius: 20px;
 }
 main section.right div.Ctn {
-  width: 50%;
+  width: 60%;
   margin: 0.5rem;
   background: #fff8d2;
   border-radius: 18px;
@@ -88,7 +88,7 @@ main section.right div.Ctn {
 main section.right div.Ctn div.h1 {
   margin: 0.5rem;
   background-color: #753d1b;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #ffffff;
 }
 main section.right div.Ctn div.h1 h1 {

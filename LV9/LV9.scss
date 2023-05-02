@@ -1,5 +1,6 @@
-// 色票管理: $
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 
+// 色票管理: $
 $main-color: #FFFFFF;
 $sub-color : #000000;
 $prussian-blue: rgba(0, 48, 73, 1);
@@ -20,7 +21,7 @@ $vanilla: #fff8d2;
     border-radius: 20px;
 
     div.Ctn {
-        width: 50%;
+        width: 60%;
         margin: 0.5rem;
         background: $vanilla;
         border-radius: 18px;
@@ -28,7 +29,7 @@ $vanilla: #fff8d2;
         div.h1 {
             margin: 0.5rem;
             background-color: $brown2;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
 
             color: #ffffff;
 
@@ -53,13 +54,10 @@ $vanilla: #fff8d2;
 
 }
 
-// 跟css一樣用{}
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
-
 * {
     padding: 0;
     margin: 0;
-    font-family: "Noto Serif TC", serif;
+    font-family: "Noto Sans TC", serif;
     text-align: center;
 
     a {
@@ -88,6 +86,7 @@ nav {
     }
 
     a {
+
         ul {
             padding-right: 1rem;
             font-size: 1.5rem;
