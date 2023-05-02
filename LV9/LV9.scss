@@ -4,9 +4,10 @@ $main-color: #FFFFFF;
 $sub-color : #000000;
 $prussian-blue: rgba(0, 48, 73, 1);
 $fire-engine-red: rgba(214, 40, 40, 1);
-$orange-wheel: rgba(247, 127, 0, 1);
-$xanthous: rgba(252, 191, 73, 1);
-$vanilla: rgba(234, 226, 183, 1);
+$orange: #ffeecf;
+$brown: #522203;
+$brown2: #753d1b;
+$vanilla: #fff8d2;
 
 @mixin boxModel() {
     width: 50%;
@@ -14,7 +15,7 @@ $vanilla: rgba(234, 226, 183, 1);
 
     align-items: center;
     flex-direction: column;
-    background: $prussian-blue;
+    background: $vanilla;
     margin: 1rem;
     border-radius: 20px;
 
@@ -26,25 +27,35 @@ $vanilla: rgba(234, 226, 183, 1);
 
         div.h1 {
             margin: 0.5rem;
-            background-color: $prussian-blue;
+            background-color: $brown2;
             font-size: 1.5rem;
 
-            color: $sub-color;
+            color: #ffffff;
 
             h1 {
-                color: white;
+                color: $brown;
             }
         }
     }
 
     table,
+    tr,
     th,
     td {
-        border: 1px solid black;
+        border: 1px solid $brown;
+        border-spacing: 0;
     }
+
+    th {
+        color: black;
+        background-color: $vanilla;
+    }
+
 }
 
 // 跟css一樣用{}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -61,12 +72,12 @@ $vanilla: rgba(234, 226, 183, 1);
 
     h1,
     p {
-        color: #FFFFFF;
+        color: $brown;
     }
 }
 
 nav {
-    background: $orange-wheel;
+    background: $brown2;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -74,6 +85,15 @@ nav {
     div {
         display: flex;
         justify-content: center;
+    }
+
+    a {
+        ul {
+            padding-right: 1rem;
+            font-size: 1.5rem;
+            color: #FFFFFF;
+
+        }
     }
 }
 
