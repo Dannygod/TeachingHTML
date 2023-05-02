@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -12,10 +12,13 @@ p {
 }
 
 table,
-tr {
-  border: 1px solid black;
+tr,
+th,
+td {
+  border: 1px solid #522203;
+  border-spacing: 0;
 }
 th {
-  color: #522203;
+  color: black;
   background-color: #fff8d2;
 }
