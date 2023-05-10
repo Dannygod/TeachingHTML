@@ -42,10 +42,15 @@ $vanilla: #fff8d2;
         }
     }
 
+    table {
+        width: 100%;
+    }
+
     table,
     tr,
     th,
     td {
+
         border: 1px solid $brown;
         border-spacing: 0;
     }
@@ -120,3 +125,18 @@ main {
 
 
 // 用&連接parent &:hover
+
+@media screen and (max-width:700px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+
+        section.left {
+            width: 85vw;
+        }
+
+        section.right {
+            width: 85vw;
+        }
+    }
+}

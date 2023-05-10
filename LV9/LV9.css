@@ -61,6 +61,9 @@ main section.left div.Ctn div.h1 {
 main section.left div.Ctn div.h1 h1 {
   color: #522203;
 }
+main section.left table {
+  width: 100%;
+}
 main section.left table,
 main section.left tr,
 main section.left th,
@@ -95,6 +98,9 @@ main section.right div.Ctn div.h1 {
 main section.right div.Ctn div.h1 h1 {
   color: #522203;
 }
+main section.right table {
+  width: 100%;
+}
 main section.right table,
 main section.right tr,
 main section.right th,
@@ -105,4 +111,17 @@ main section.right td {
 main section.right th {
   color: black;
   background-color: #fff8d2;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  main section.left {
+    width: 85vw;
+  }
+  main section.right {
+    width: 85vw;
+  }
 }/*# sourceMappingURL=LV9.css.map */
