@@ -71,7 +71,7 @@ $vanilla: #fff8d2;
         text-decoration: none;
 
         &:hover {
-            color: blue;
+            color: $fire-engine-red;
         }
     }
 
@@ -98,13 +98,15 @@ nav {
         justify-content: center;
     }
 
-    a {
+    ul {
+        display: flex;
 
-        ul {
-            padding-right: 1rem;
-            font-size: 1.5rem;
-            color: #FFFFFF;
-
+        li {
+            a {
+                padding-right: 1rem;
+                font-size: 1.5rem;
+                color: #FFFFFF;
+            }
         }
     }
 }

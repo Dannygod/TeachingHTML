@@ -1,8 +1,11 @@
-div {
+div.container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
 
     div {
-        width: 100px;
+        // width: 100px;
 
         &.box1 {
             background: rgb(245, 16, 8);

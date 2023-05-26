@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 * a:hover {
-  color: blue;
+  color: rgb(214, 40, 40);
 }
 * ul {
   list-style: none;
@@ -29,7 +29,10 @@ nav div {
   display: flex;
   justify-content: center;
 }
-nav a ul {
+nav ul {
+  display: flex;
+}
+nav ul li a {
   padding-right: 1rem;
   font-size: 1.5rem;
   color: #FFFFFF;

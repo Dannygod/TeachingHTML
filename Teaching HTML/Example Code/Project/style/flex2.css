@@ -1,21 +1,21 @@
-div {
+div.container {
   display: flex;
-}
-div div {
+  flex-direction: column;
+  align-items: center;
   width: 100px;
 }
-div div.box1 {
+div.container div.box1 {
   background: rgb(245, 16, 8);
 }
-div div.box2 {
+div.container div.box2 {
   background: rgb(255, 176, 6);
 }
-div div.box3 {
+div.container div.box3 {
   background: rgb(231, 231, 3);
 }
-div div.box4 {
+div.container div.box4 {
   background: rgb(37, 163, 226);
 }
-div div.box5 {
+div.container div.box5 {
   background: rgb(27, 246, 27);
 }/*# sourceMappingURL=flex2.css.map */
