@@ -16,5 +16,5 @@ p.content {
 ol {
   /* list-style-type: lower-roman; */
   list-style-type: upper-roman;
-  list-style-type: circle;
+  list-style-type: disc;
 }
