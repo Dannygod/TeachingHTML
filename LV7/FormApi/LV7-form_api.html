@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--設定字元編碼-->
+    <meta content="viewpoint" content="width=device-width , initial-scale=1" />
+    <!--設定頁面大小-->
+    <title>LV7</title>
+    <link rel="stylesheet" href="./LV7.css" />
+  </head>
+  <body>
+    <h1>Skill 7</h1>
+    <h2>表單</h2>
+    <form action="./LV8-htmlTag.html">
+      <!-- type = text -->
+      <label>輸入姓名: </label>
+      <input type="text" name="Name" id="Name"/>
+      <br />
+      <!-- type = radio -->
+      <label>性別:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">男</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">女</label><br />
+      <!-- type = email -->
+      <label>輸入信箱:</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <!-- type = password -->
+      <label>輸入密碼:</label>
+      <input type="password" name="none" id="PW" />
+      <br />
+      <label>性別:</label>
+      <!-- type = checkbox -->
+      <!-- <input type="checkbox" id="male1" name="gender" value="male" />
+      <label for="male1">男</label>
+      <input type="checkbox" id="female1" name="gender" value="female" />
+      <label for="female1">女</label><br /> -->
+      <button type="submit" onclick="alert('表單已送出!')">送出</button>
+    </form>
+  </body>
+</html>
